@@ -4,12 +4,6 @@ name: Process Reprocessing Request
 on:
   pull_request:
     branches: [ main ]
-    # This workflow is triggered on pull requests to the main branch
-    # It will only run if the pull request contains changes to the specified paths
-    paths:
-      - 'requests/submit/**'
-      - 'scripts/rename_sorter.py'
-      - '.github/workflows/sort-and-validate.yml'
 
 env:
   PYTHON_VERSION: '3.12'
