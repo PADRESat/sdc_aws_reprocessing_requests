@@ -3,13 +3,13 @@
     { 
       "request_instrument": "sharp",
       "request_description": "Reprocess all files - L0",
-      "from_level": "l0",
+      "request_from_level": "l0",
       "use_dev": false
     },
     { 
       "request_instrument": "meddea",
       "request_description": "Reprocess all files - L0",
-      "from_level": "l0",
+      "request_from_level": "l0",
       "use_dev": false
     }
   ]
