@@ -1,0 +1,16 @@
+{
+  "requests": [
+    { 
+      "request_instrument": "sharp",
+      "request_description": "Reprocess all files - L0",
+      "request_from_level": "l0",
+      "use_dev": true
+    },
+    { 
+      "request_instrument": "meddea",
+      "request_description": "Reprocess all files - L0",
+      "request_from_level": "l0",
+      "use_dev": true
+    }
+  ]
+}
