@@ -64,7 +64,7 @@ def main() -> None:
         
         swxsoc.log.info("Payload generation successful")
         swxsoc.log.info("Generated payload preview:")
-        swxsoc.log.info(json.dumps(payloads[:1], indent=4))  # Show first payload as sample
+        swxsoc.log.info(json.dumps(payloads, indent=4))
     except (json.JSONDecodeError, KeyError, ValueError) as e:
         swxsoc.log.error(f"Payload generation failed: {str(e)}")
         exit(1)
