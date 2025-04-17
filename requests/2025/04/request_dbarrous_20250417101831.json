@@ -1,0 +1,11 @@
+{
+  "requests": [
+    { 
+      "request_description": "Reprocess file - L0 test light",
+      "request_filenames": [
+        "meddea_l0test_light_20250131T192102_v0.3.0.bin"
+      ],
+      "use_dev": true
+    }
+  ]
+}
