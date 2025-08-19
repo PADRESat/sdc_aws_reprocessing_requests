@@ -14,7 +14,7 @@ This repository handles requests for reprocessing instrument data stored in AWS.
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/dbarrous/sdc_aws_reprocessing_requests.git
+git clone https://github.com/PADRESat/sdc_aws_reprocessing_requests.git
 cd sdc_aws_reprocessing_requests
 ```
 
